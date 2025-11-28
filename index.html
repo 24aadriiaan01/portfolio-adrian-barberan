@@ -16,6 +16,9 @@
     <meta property="og:url" content="https://portfolio-adrian-barberan.vercel.app/" />
     <meta property="og:type" content="website" />
 
+    <!-- Swiper CSS para el carrusel -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
@@ -25,8 +28,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- Swiper CSS para el carrusel -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
 </head>
 
@@ -283,7 +284,7 @@
         </div>
 
         <!-- Carrusel de Swiper.js (fuera del .container para ocupar el ancho completo) -->
-        <div class="swiper-container">
+        <div class="webs-carousel swiper-container">
             <div class="swiper-wrapper">
                 <!-- Slide 1: Barbería Royal -->
                 <div class="swiper-slide">
@@ -558,7 +559,7 @@
     <!-- Swiper JS para el carrusel -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-        var swiper = new Swiper('.swiper-container', {
+        var swiper = new Swiper('.webs-carousel', {
             slidesPerView: 1,
             spaceBetween: 30,
             loop: true,
