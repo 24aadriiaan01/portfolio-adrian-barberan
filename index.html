@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adrián Barberán | Desarrollador Web Frontend</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Portafolio profesional de Adrián Barberán, desarrollador web frontend especializado en HTML, CSS, JavaScript y diseño responsive.">
+    <meta name="keywords" content="desarrollador web, frontend, HTML, CSS, JavaScript, portfolio, landing pages, diseño web">
+
+    <!-- Open Graph (para compartir en redes sociales) -->
+    <meta property="og:title" content="Adrián Barberán — Desarrollador Web Frontend" />
+    <meta property="og:description" content="Portfolio profesional de desarrollo web, IA y diseño frontend." />
+    <meta property="og:image" content="https://URL-A-TU-DOMINIO/imgs/imagen-presentacion.png" />
+    <meta property="og:url" content="https://URL-A-TU-DOMINIO" />
+    <meta property="og:type" content="website" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Swiper CSS para el carrusel -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Adrián <span>Barberán</span></a>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#webs">Webs realizadas</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+
+                <div class="mobile-toggle" id="mobileToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Hola, soy Adrián.<br>Desarrollador Web <span class="highlight">Frontend</span></h1>
+                <p>Diseño páginas web rápidas, modernas y que venden para negocios y profesionales.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Servicios</a>
+                    <a href="#contact" class="btn btn-outline">Contactar</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img loading="lazy" src="imgs/foto-adrian.jpg" 
+                alt="Retrato profesional de Adrián Barberán">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">Sobre mí</h2>
+            <p class="section-subtitle">Desarrollador web con pasión por el frontend y la experiencia de usuario.</p>
+
+            <div class="about-grid">
+                <div class="about-image">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" 
+                    alt="Workspace de programación moderno">
+                </div>
+
+                <div class="about-text">
+                    <h3>Construyo páginas web que no solo se ven bien, sino que generan resultados: más clientes, más ventas y más impacto.</h3>
+                    <p>Mi especialidad es transformar tus ideas en una presencia online profesional, combinando diseño atractivo con un código limpio y eficiente para asegurar que tu web sea rápida, funcional y fácil de usar.</p>
+
+                    <h4>Herramientas que utilizo:</h4>
+                    <div class="skills-container">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Backend</span>
+                        <span class="skill-tag">IA</span>
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proceso de Trabajo -->
+    <section id="process">
+        <div class="container">
+            <h2 class="section-title">Mi Proceso de Trabajo</h2>
+            <p class="section-subtitle">Un método claro y eficiente para garantizar el éxito de tu proyecto.</p>
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="process-number">1</div>
+                    <h4>Reunión Inicial</h4>
+                    <p>Entendemos tus objetivos y definimos los requisitos del proyecto.</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">2</div>
+                    <h4>Wireframe y Diseño</h4>
+                    <p>Creamos un boceto visual de la estructura y el diseño de la web.</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">3</div>
+                    <h4>Maquetación</h4>
+                    <p>Transformamos el diseño en una web funcional con código limpio.</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">4</div>
+                    <h4>Revisión</h4>
+                    <p>Ajustamos los detalles finales según tu feedback.</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">5</div>
+                    <h4>Entrega Final</h4>
+                    <p>Lanzamos la web y te entregamos todos los accesos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Actualizados -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">Servicios</h2>
+            <p class="section-subtitle">Soluciones web profesionales adaptadas a tu proyecto.</p>
+
+            <!-- SERVICIOS WEB -->
+            <h3 class="service-category-title">Servicios Web</h3>
+            <div class="detailed-services-grid">
+                <div class="detailed-service-card">
+                    <div class="service-card-header web"></div>
+                    <h4>Landing Page Profesional</h4>
+                    <p class="service-desc">Página de una o varias secciones diseñada para captar leads, ventas o reservas. Rápida, moderna y optimizada para conversión. Ideal para campañas o negocios que necesitan una presencia rápida.</p>
+                    <h5>¿Qué incluye?</h5>
+                    <ul>
+                        <li>Diseño y maquetación en HTML/CSS/JS</li>
+                        <li>Animaciones básicas (scroll, fade, etc.)</li>
+                        <li>Textos generados con IA (opcional)</li>
+                        <li>Versión móvil completamente optimizada</li>
+                        <li>Optimización básica SEO On-Page</li>
+                    </ul>
+                    <div class="price-info"><strong>Precio:</strong> 80€ – 400€</div>
+                </div>
+                <div class="detailed-service-card">
+                    <div class="service-card-header web"></div>
+                    <h4>Página Web Express (1–3 páginas)</h4>
+                    <p class="service-desc">Web rápida, simple y profesional para negocios que necesitan presencia online sin complicaciones. Ideal para autónomos, pequeños negocios, restaurantes, etc.</p>
+                    <h5>¿Qué incluye?</h5>
+                    <ul>
+                        <li>Home + Servicios + Contacto (o similar)</li>
+                        <li>Diseño responsive completo</li>
+                        <li>Copywriting con IA y galería de imágenes</li>
+                        <li>Enlace a WhatsApp, email y redes</li>
+                    </ul>
+                    <div class="price-info"><strong>Precio:</strong> 250€ – 500€</div>
+                </div>
+                <div class="detailed-service-card">
+                    <div class="service-card-header web"></div>
+                    <h4>Maquetación (Figma → HTML/CSS/JS)</h4>
+                    <p class="service-desc">Transformación exacta de un diseño en Figma a código limpio, profesional y pixel-perfect. Ideal para agencias, diseñadores y startups.</p>
+                    <h5>¿Qué incluye?</h5>
+                    <ul>
+                        <li>Código limpio y comentado</li>
+                        <li>Responsive perfecto</li>
+                        <li>Integración de librerías (AOS, Swiper, etc.)</li>
+                    </ul>
+                    <div class="price-info"><strong>Precio:</strong> 120€ – 250€ (página completa)</div>
+                </div>
+                <div class="detailed-service-card">
+                    <div class="service-card-header web"></div>
+                    <h4>Optimización y Arreglos Web</h4>
+                    <p class="service-desc">Arreglo de errores, responsive mal hecho o mejoras de velocidad. Para webs que ya existen pero no funcionan bien.</p>
+                    <h5>¿Qué incluye?</h5>
+                    <ul>
+                        <li>Optimización de carga y mejora de Lighthouse</li>
+                        <li>Reparación de errores visuales y funcionales</li>
+                        <li>Validación de código W3C</li>
+                    </ul>
+                    <div class="price-info"><strong>Precio:</strong> 20€ – 200€ (según complejidad)</div>
+                </div>
+                <div class="detailed-service-card">
+                    <div class="service-card-header web"></div>
+                    <h4>Mantenimiento Web Mensual</h4>
+                    <p class="service-desc">Cuidado mensual de tu web para que siempre funcione correctamente. Ideal para negocios con actualizaciones frecuentes.</p>
+                    <h5>¿Qué incluye?</h5>
+                    <ul>
+                        <li>Cambios pequeños y actualización de contenido</li>
+                        <li>Backups y monitorización de disponibilidad</li>
+                        <li>Arreglos menores</li>
+                    </ul>
+                    <div class="price-info"><strong>Precio:</strong> 30€ – 80€ / mes</div>
+                </div>
+            </div>
+
+            <!-- SERVICIOS IA -->
+            <h3 class="service-category-title">Servicios de Inteligencia Artificial</h3>
+            <div class="detailed-services-grid">
+                <div class="detailed-service-card">
+                    <div class="service-card-header ia"></div>
+                    <h4>Gestión de Redes Sociales con IA</h4>
+                    <p class="service-desc">Publicaciones profesionales creadas con IA, calendarios mensuales y optimización para crecimiento. Ideal para negocios que no pueden pagar una agencia tradicional.</p>
+                    <div class="price-info"><strong>Precio:</strong> 120€ – 450€ / mes</div>
+                </div>
+                <div class="detailed-service-card">
+                    <div class="service-card-header ia"></div>
+                    <h4>Contenido Automatizado con IA</h4>
+                    <p class="service-desc">Producción rápida de contenido para alimentar redes, webs o blogs: carruseles, reels cortos, artículos SEO, emails y más.</p>
+                    <div class="price-info"><strong>Precio:</strong> 40€ – 200€ (por pack)</div>
+                </div>
+                <div class="detailed-service-card">
+                    <div class="service-card-header ia"></div>
+                    <h4>Chatbots para Web o WhatsApp</h4>
+                    <p class="service-desc">Chatbots personalizados que responden preguntas, gestionan reservas o ayudan en ventas, entrenados con tu información.</p>
+                    <div class="price-info"><strong>Precio:</strong> 80€ – 600€</div>
+                </div>
+                <div class="detailed-service-card">
+                    <div class="service-card-header ia"></div>
+                    <h4>Automatizaciones No-Code</h4>
+                    <p class="service-desc">Automatización de tareas repetitivas con Make o Zapier: conectar formularios a Google Sheets, enviar emails automáticos, gestionar leads, etc.</p>
+                    <div class="price-info"><strong>Precio:</strong> 40€ – 400€</div>
+                </div>
+            </div>
+
+            <!-- PACKS COMBINADOS -->
+            <h3 class="service-category-title">Packs Combinados</h3>
+            <div class="detailed-services-grid">
+                <div class="detailed-service-card">
+                    <div class="service-card-header pack"></div>
+                    <h4>Pack Web + IA Starter</h4>
+                    <p class="service-desc">Incluye: Landing Page + 10 posts para redes sociales + Chatbot básico para tu web.</p>
+                    <div class="price-info"><strong>Precio:</strong> 250€ – 350€</div>
+                </div>
+                <div class="detailed-service-card">
+                    <div class="service-card-header pack"></div>
+                    <h4>Pack Presencia Digital</h4>
+                    <p class="service-desc">Incluye: Web Express (hasta 3 páginas) + 30 días de contenido para redes + Chatbot simple.</p>
+                    <div class="price-info"><strong>Precio:</strong> 450€ – 650€</div>
+                </div>
+                <div class="detailed-service-card">
+                    <div class="service-card-header pack"></div>
+                    <h4>Pack Ecommerce Mini</h4>
+                    <p class="service-desc">Incluye: Catálogo de productos simple en HTML + Chatbot de respuestas a preguntas frecuentes + Integración con Instagram Shopping.</p>
+                    <div class="price-info"><strong>Precio:</strong> 300€ – 450€</div>
+                </div>
+            </div>
+
+            <!-- Botón de descarga del catálogo -->
+            <div class="download-catalog-container">
+                <a href="catalogo.pdf" download="catalogo-servicios-adrian-barberan.pdf" class="btn btn-outline">
+                    <i class="fas fa-download"></i> Descargar Catálogo de Servicios
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Webs realizadas -->
+    <section id="webs">
+        <!-- Contenedor solo para el título y subtítulo -->
+        <div class="container">
+            <h2 class="section-title">Webs realizadas</h2>
+            <p class="section-subtitle">Ejemplos reales de mi trabajo.</p>
+        </div>
+
+        <!-- Carrusel de Swiper.js (fuera del .container para ocupar el ancho completo) -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Slide 1: Barbería Royal -->
+                <div class="swiper-slide">
+                    <article class="project-card">
+                        <div class="project-img">
+                            <img src="imgs/barberia-royal.png" alt="Barbería Royal IA">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Caso de Estudio IA</span>
+                            <h3>Barbería Royal — IA en Redes Sociales</h3>
+                            <p>Reto: Demostrar cómo la IA puede gestionar y hacer crecer las redes sociales de un negocio local, creando contenido atractivo y aumentando la interacción.</p>
+                            <a href="https://barberia-royal.vercel.app/" class="link-text" target="_blank"><i class="fas fa-external-link-alt"></i> Ver Proyecto</a>
+                        </div>
+                    </article>
+                </div>
+                <!-- Slide 2: Velvet & Bean -->
+                <div class="swiper-slide">
+                    <article class="project-card">
+                        <div class="project-img">
+                            <img src="imgs/velvet&bean.png" alt="Velvet & Bean">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Landing Page</span>
+                            <h3>Velvet & Bean — Landing Page</h3>
+                            <p>Reto: Crear una página de aterrizaje elegante y rápida para una nueva marca de café, optimizada para captar la atención del visitante.</p>
+                            <a href="https://velvet-bean.vercel.app/" class="link-text" target="_blank"><i class="fas fa-external-link-alt"></i> Ver Proyecto</a>
+                        </div>
+                    </article>
+                </div>
+                <!-- Slide 3: Reloj Noir -->
+                <div class="swiper-slide">
+                    <article class="project-card">
+                        <div class="project-img">
+                            <img src="imgs/reloj-noir.png" alt="Reloj Noir">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Página de Producto</span>
+                            <h3>Reloj Noir — Venta de producto</h3>
+                            <p>Reto: Diseñar una web de producto única y minimalista que destacara la exclusividad de un reloj de lujo y facilitara la compra.</p>
+                            <a href="https://reloj-noir.vercel.app/" class="link-text" target="_blank"><i class="fas fa-external-link-alt"></i> Ver Proyecto</a>
+                        </div>
+                    </article>
+                </div>
+                <!-- Slide 4: Web Multipágina -->
+                <div class="swiper-slide">
+                    <article class="project-card">
+                        <div class="project-img">
+                            <img src="imgs/web-multipagina.png" alt="Ejemplo de web multipágina">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Web Multipágina</span>
+                            <h3>Web Corporativa — Ejemplo</h3>
+                            <p>Reto: Desarrollar una web corporativa completa con varias secciones, mostrando una estructura de navegación clara y un diseño profesional.</p>
+                            <a href="https://web-multipagina.vercel.app/" class="link-text" target="_blank"><i class="fas fa-external-link-alt"></i> Ver Proyecto</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <p class="section-subtitle">¿Quieres trabajar conmigo? Escríbeme.</p>
+
+            <div class="contact-wrapper">
+
+                <div class="contact-info">
+                    <h4>¿Tienes un proyecto más grande en mente?</h4>
+                    <p>Si necesitas una solución a medida, una aplicación web completa o tienes una idea que no encaja en los servicios listados, hablemos. Podemos encontrar la mejor manera de llevar tu proyecto a la realidad.</p>
+                    <p class="response-time">Respondo en menos de 24 horas.</p>
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <a href="mailto:adrianbarberanforner@gmail.com">adrianbarberanforner@gmail.com</a>
+                    </div>
+                </div>
+
+                <form action="https://formsubmit.co/adrianbarberanforner@gmail.com" method="POST" class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <i class="fas fa-user form-icon"></i>
+                        <input type="text" name="name" class="form-control" placeholder="Tu Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-envelope form-icon"></i>
+                        <input type="email" name="email" class="form-control" placeholder="Tu Email" required></div>
+                    <div class="form-group">
+                        <i class="fas fa-comment-dots form-icon"></i>
+                        <textarea name="message" class="form-control" placeholder="Cuéntame tu idea..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>Adrián <span>Barberán</span></h3>
+                    <p>Desarrollador Web Frontend ayudando a negocios a crecer en el mundo digital.</p>
+                </div>
+                <div class="footer-right">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">Sobre mí</a></li>
+                        <li><a href="#services">Servicios</a></li>
+                        <li><a href="#webs">Proyectos</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Adrián Barberán. Todos los derechos reservados.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/adri%C3%A1n-barber%C3%A1n-forner-8a9311346/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/24aadriiaan01" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot HTML -->
+    <button class="chatbot-toggler">
+        <i class="fas fa-comment-dots"></i>
+    </button>
+    <div class="chatbot-container">
+        <div class="chatbot-header">
+            <h3>Asistente Virtual</h3>
+        </div>
+        <ul class="chatbox chat">
+            <li class="chat incoming">
+                <span><i class="fas fa-robot"></i></span>
+                <p>¡Hola! Soy el asistente de Adrián. ¿Cómo puedo ayudarte a conseguir tus objetivos?</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Escribe tu consulta..." required></textarea>
+            <span id="send-btn" class="fa-solid fa-paper-plane"></span>
+        </div>
+    </div>
+
+    <script>
+        // Script para el toggle del menú móvil
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // --- LÓGICA DEL CHATBOT ---
+        const chatbotToggler = document.querySelector(".chatbot-toggler");
+        const chatbotContainer = document.querySelector(".chatbot-container");
+        const chatInput = document.querySelector(".chat-input textarea");
+        const sendChatBtn = document.querySelector(".chat-input span");
+        const chatbox = document.querySelector(".chatbox");
+
+        const email = "adrianbarberanforner@gmail.com";
+
+        const services = {
+            "landing": "Una Landing Page Profesional es perfecta para captar clientes. El precio varía entre 80€ y 400€, dependiendo de la complejidad. Adrián puede crear una página moderna y efectiva para ti.",
+            "web": "El servicio de Página Web Express (1-3 páginas) es ideal para tener una presencia online completa. Los precios van de 250€ a 500€. Es una solución rápida y profesional para tu negocio.",
+            "figma": "Si ya tienes un diseño, Adrián puede transformarlo de Figma a código HTML/CSS/JS con total fidelidad. Este servicio de maquetación cuesta entre 120€ y 250€ por página.",
+            "redes": "La Gestión de Redes Sociales con IA te ayuda a crecer online con contenido profesional. Los planes mensuales van de 120€ a 450€. Es ideal para mantener tus redes activas sin esfuerzo.",
+            "chatbot": "Un chatbot personalizado puede responder preguntas o gestionar reservas en tu web o WhatsApp. La implementación va desde 80€ hasta 600€, según la complejidad. Adrián puede crear uno para ti.",
+            "precio": "Adrián ofrece varios servicios. Para darte un presupuesto, ¿qué tienes en mente? ¿Una web, gestionar tus redes, un chatbot?",
+            "contacto": `¡Claro! Puedes contactar directamente con Adrián escribiéndole a ${email}. Estará encantado de hablar sobre tu proyecto.`,
+            "gracias": "¡De nada! Si tienes otra pregunta o quieres empezar, solo tienes que decirlo. Adrián está listo para ayudarte a llevar tu proyecto al siguiente nivel."
+        };
+
+        const defaultResponse = `Entendido. La mejor forma de darte un precio exacto es hablar directamente con Adrián. Puedes enviarle un email a ${email} y te responderá en menos de 24 horas.`;
+
+        const createChatLi = (message, className) => {
+            const chatLi = document.createElement("li");
+            chatLi.classList.add("chat", className);
+            let chatContent = className === "outgoing" 
+                ? `<p>${message}</p>` 
+                : `<span><i class="fas fa-robot"></i></span><p>${message}</p>`;
+            chatLi.innerHTML = chatContent;
+            return chatLi;
+        }
+
+        const generateResponse = (userMessage) => {
+            const message = userMessage.toLowerCase();
+            let response = defaultResponse;
+
+            if (message.includes("hola") || message.includes("buenos dias")) {
+                response = "¡Hola! Soy el asistente de Adrián. ¿Te interesa una página web, un servicio de IA o tienes otra consulta?";
+            } else if (message.includes("landing") || message.includes("aterrizaje")) {
+                response = services.landing;
+            } else if (message.includes("web") || message.includes("página")) {
+                response = services.web;
+            } else if (message.includes("figma") || message.includes("diseño a código")) {
+                response = services.figma;
+            } else if (message.includes("redes") || message.includes("sociales") || message.includes("instagram")) {
+                response = services.redes;
+            } else if (message.includes("chatbot") || message.includes("asistente")) {
+                response = services.chatbot;
+            } else if (message.includes("precio") || message.includes("cuánto cuesta") || message.includes("presupuesto")) {
+                response = services.precio;
+            } else if (message.includes("contacto") || message.includes("email") || message.includes("hablar")) {
+                response = services.contacto;
+            } else if (message.includes("gracias") || message.includes("ok")) {
+                response = services.gracias;
+            }
+
+            setTimeout(() => {
+                const incomingChatLi = createChatLi(response, "incoming");
+                chatbox.appendChild(incomingChatLi);
+                chatbox.scrollTo(0, chatbox.scrollHeight);
+            }, 600);
+        }
+
+        const handleChat = () => {
+            const userMessage = chatInput.value.trim();
+            if (!userMessage) return;
+
+            chatInput.value = "";
+            chatbox.appendChild(createChatLi(userMessage, "outgoing"));
+            chatbox.scrollTo(0, chatbox.scrollHeight);
+
+            generateResponse(userMessage);
+        }
+
+        // Event Listeners
+        chatbotToggler.addEventListener("click", () => chatbotContainer.classList.toggle("show"));
+        sendChatBtn.addEventListener("click", handleChat);
+        chatInput.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" && !e.shiftKey) {
+                e.preventDefault();
+                handleChat();
+            }
+        });
+
+        // Botones de inicio rápido
+        const addQuickStartButtons = () => {
+            const quickButtonsContainer = document.createElement("div")
+            quickButtonsContainer.className = "quick-buttons-container";
+            const buttons = [
+                "Quiero una web",
+                "Precio de una landing",
+                "Gestión de redes"
+            ];
+            buttons.forEach(text => {
+                const button = document.createElement("button");
+                button.innerText = text;
+                button.onclick = () => {
+                    chatInput.value = text;
+                    handleChat();
+                };
+                quickButtonsContainer.appendChild(button);
+            });
+            chatbox.appendChild(quickButtonsContainer);
+        }
+
+        addQuickStartButtons();
+    </script>
+
+    <!-- Swiper JS para el carrusel -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                // Cuando el ancho de la ventana es >= 768px
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                // Cuando el ancho de la ventana es >= 1024px
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
